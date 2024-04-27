@@ -1,0 +1,29 @@
+.tableHistory {
+  margin: 60px auto;
+  border: 2px solid rgb(31, 29, 29);
+  width: 600px;
+  color: rgb(31, 29, 29);
+}
+.tableRow {
+  background-color: #ebe2e2;
+}
+th {
+  padding: 7px 0;
+  color: #000;
+  background-color: #0a0a0a;
+  font-size: 22px;
+  color: #ebe2e2;
+}
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+td::first-letter {
+  text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}

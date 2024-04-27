@@ -1,0 +1,26 @@
+.userCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgb(68, 68, 68);
+  padding: 20px;
+  border-radius: 10px;
+}
+.useItem {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.userName,
+.userStatus {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.userStatus.online {
+  color: green;
+}
+.userStatus.offline {
+  color: red;
+}
